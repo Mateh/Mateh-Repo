@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/widget0"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+<LinearLayout
+    android:id="@+id/widget32"
+    android:layout_width="wrap_content"
+    android:layout_height="216px"
+    android:layout_x="85dp"
+    android:layout_y="144dp"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/Button_Login"
+        android:layout_width="214px"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/Button_FindHelp"
+        android:layout_width="213px"
+        android:layout_height="wrap_content"
+        android:text="Find Help" />
+
+    <Button
+        android:id="@+id/Button_GiveHelp"
+        android:layout_width="213px"
+        android:layout_height="wrap_content"
+        android:text="Give Help" />
+</LinearLayout>
+
+<TextView
+    android:id="@+id/user_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="5dp"
+    android:layout_y="9dp"
+    android:text="Username: "
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<TextView
+    android:id="@+id/client_username_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="118dp"
+    android:layout_y="10dp"
+    android:text=""
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="7dp"
+    android:layout_y="409dp"
+    android:text="Server Port:" />
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="10dp"
+    android:layout_y="359dp"
+    android:text="Server IP:" />
+
+<EditText
+    android:id="@+id/editserverip"
+    android:layout_width="193dp"
+    android:layout_height="wrap_content"
+    android:layout_x="88dp"
+    android:layout_y="348dp" />
+
+<EditText
+    android:id="@+id/editserverport"
+    android:layout_width="106dp"
+    android:layout_height="wrap_content"
+    android:layout_x="88dp"
+    android:layout_y="399dp"
+    android:inputType="number" />
+
+<Button
+    android:id="@+id/serverbutton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="212dp"
+    android:layout_y="400dp"
+    android:text="Submit" />
+
+<TextView
+    android:id="@+id/serveraddresslabel"
+  	android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="8dp"
+    android:layout_y="44dp"
+    android:text="Server IP:" />
+
+</AbsoluteLayout>

@@ -1,0 +1,96 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Groups:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Spinner
+            android:id="@+id/coursespin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/post_box"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:inputType="textMultiLine" >
+        </EditText>
+
+        <Button
+            android:id="@+id/button_Post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.13" >
+
+            <Button
+                android:id="@+id/HelperMessage_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="Messages" />
+
+            <RadioGroup
+                android:id="@+id/updateTimerGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/HelperMessage_Button"
+                android:layout_marginTop="22dp" >
+
+                <RadioButton
+                    android:id="@+id/radio_1second"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="1 Second" />
+
+                <RadioButton
+                    android:id="@+id/radio_5second"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5 Seconds" />
+
+                <RadioButton
+                    android:id="@+id/radio_10second"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10 Seconds" />
+                <RadioButton
+                    android:id="@+id/radio_60second"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="60 Seconds" />
+                <RadioButton
+                    android:id="@+id/radio_noupdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Never Update" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/select_second_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/HelperMessage_Button"
+                android:text="Select the seconds between updating"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>

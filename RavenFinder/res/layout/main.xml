@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/widget60"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+<LinearLayout
+    android:id="@+id/widget52"
+    android:layout_width="192dp"
+    android:layout_height="242dp"
+    android:layout_x="68dp"
+    android:layout_y="98dp"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/Button_RF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RavenFinder" />
+
+    <Button
+        android:id="@+id/Button_RE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RavenEye" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/linearLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="66dp"
+    android:layout_y="71dp"
+    android:orientation="vertical" >
+</LinearLayout>
+
+
+
+</AbsoluteLayout>

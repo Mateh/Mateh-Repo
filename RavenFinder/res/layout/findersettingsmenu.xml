@@ -1,0 +1,63 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.13" >
+
+            <RadioGroup
+                android:id="@+id/updateTimerGroup2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+               
+                android:layout_marginTop="22dp" >
+
+                <RadioButton
+                    android:id="@+id/radio_1second2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="1 Second" />
+
+                <RadioButton
+                    android:id="@+id/radio_5second2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5 Seconds" />
+
+                <RadioButton
+                    android:id="@+id/radio_10second2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10 Seconds" />
+                <RadioButton
+                    android:id="@+id/radio_60second2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="60 Seconds" />
+                <RadioButton
+                    android:id="@+id/radio_none2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Never Update" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/select_second_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                
+                android:text="Select the seconds between updating"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>

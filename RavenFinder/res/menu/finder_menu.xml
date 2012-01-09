@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/fupdate"
+          android:icon="@drawable/ic_update"
+          android:title="@string/fupdate" />
+    
+    <item android:id="@+id/fzoom"
+          android:icon="@drawable/ic_zoom"
+          android:title="@string/fzoom" />
+       <item android:id="@+id/messenger"
+          android:icon="@drawable/ic_messenger"
+          android:title="@string/fmessenger" />
+         <item android:id="@+id/settings"
+          android:icon="@drawable/ic_settings"
+          android:title="@string/settings" />
+</menu>
+    

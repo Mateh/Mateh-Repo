@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  
+    <string name="app_name">RavenFinder</string>
+
+    <string name="fupdate">Update</string>
+    <string name="fzoom">Zoom on Me</string>
+    <string name="fmessenger">Messenger</string>
+    <string name="settings">Settings</string>
+    <string name="choose_group">Choose a group:</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="loginerror"></string>
+</resources>
